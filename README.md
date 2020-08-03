@@ -1,6 +1,7 @@
-#Lantum Shifts Task
+# Lantum Shifts Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). As mentioned in the task brief. 
+Running locally follows the same process;
 
 ## Available Scripts
 
@@ -29,42 +30,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
- https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
- https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
- https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
- https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
- https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
- https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# If I had more time...
++ I would write more tests for the methods and the actual App.js.
++ I would create a search by type / practice - to allow the user to decide what results to see - maybe with some dropdowns that would call `setType` - we could easily implement the `staffType` search. We could also use arr.find to search through the returned results and therefore by `shift.practice.name`
++ I would make it a bit prettier - its super basic due to the time constraint. I would not use this if it were a website. Eurgh!
++ I would split out the returned results into its own component and pass the shifts as a prop. Right now everything happens in App.js.. and it irks me...
++ I would try and understand the 'why' of this task. What value does it provide for the user? What kind of information is required and why? 
