@@ -55,7 +55,7 @@ function App() {
                 <p>Number of applications:</p>
                 <p>{applicationIds.length}</p>
                 <p>Hourly rate:</p>
-                <p>{hourlyRate}</p>
+                <p>£{hourlyRate}</p>
               </div>
             );
           })}
