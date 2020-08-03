@@ -54,6 +54,8 @@ function App() {
                 <p>{formattedEndDate.toLocaleString()}</p>
                 <p>Number of applications:</p>
                 <p>{applicationIds.length}</p>
+                <p>Hourly rate:</p>
+                <p>{hourlyRate}</p>
               </div>
             );
           })}
